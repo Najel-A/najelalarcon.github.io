@@ -66,12 +66,15 @@
     .topnav {
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
     }
 
     .topnav a {
     float: center;
     color: #f2f2f2;
-    text-align: left;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 32px;
@@ -85,6 +88,20 @@
     .topnav a.active {
     background-color: #4CAF50;
     color: white;
+    }
+
+    .content {
+    padding: 16px;
+    }
+
+    .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+    .sticky + .content {
+    padding-top: 102px;
     }
 
   </style>
@@ -114,7 +131,7 @@
     <p>
         <i><b>***Website is underdevelopment***</b></i><br>
         <b><i>*Mobile users experience may differ*</i></b><br>
-        <b><i>Last updated on <u>9/21/20</u></i></b>
+        <b><i>Last updated on: <u>9/21/20</u></i></b>
     </p>
     <!-- Displays base image by itself
     <img src="https://lh3.googleusercontent.com/QLQlzEBRmKjgO05wXdK_vz7I3P7H9IVzVSo7H4uyMRKHBhwUzlTydUsKVkXSCy009ILrN8AMqNv_SP6d_ghYkBb5C8GlvxYzDqA7tqNVRxJNaDMLhUiXgUqWak_DNTpTxDFM8v4Z=w2400" alt="Photo of me" style="width:200px;height:310px"> -->
@@ -149,7 +166,6 @@
     <big><a href="https://www.instagram.com/najel_alarcon/" class="fa fa-instagram" style="color:white"></a></big>
     <a href="https://github.com/Najel-A" class="fa fa-github" style="color:white"></a>
     </p>
-
 
     <!-- Decide whether to put contact email next to or above picture -->
     <!--<p><a href = "mailto: najelalarcon@gmail.com">Contact: najelalarcon@gmail.com</a></p>-->
