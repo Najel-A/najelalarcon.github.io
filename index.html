@@ -14,23 +14,6 @@
   </head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
-    a:link {
-      color:black;
-    }
-
-    a:visited {
-    color: black;
-    }
-
-    a:hover {
-    color: pink;
-    }
-
-    a:active {
-    color: blue;
-    }
-
-
     .fa {
     padding: 20px;
     font-size: 40px;
@@ -63,6 +46,11 @@
     .fa-github {
     background: purple;
     color: purple;
+    }
+
+    .active {
+    background-color: #4CAF50;
+    color: white;
     }
 
     .topnav {
@@ -108,74 +96,61 @@
     padding-top: 102px;
     }
 
+    body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .bg {
+    background-image: url("Cover.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    h2 {
+    position: fixed;
+    left: 770px;
+    top: 450px;
+    color: #8A8A8A;
+    }
+
+    #MainWrapper {
+    width: 2000px;
+    }
+
   </style>
+
+
   <body style="background-color:AntiqueWhite;">
 
-    <!-- Comment: Display heading and body -->
-    <!--<h1 style= "font-size:50px"><center>Najel Alarcon</center></h1>-->
-    <div class="topnav">
-    <h1>
-      <nav>
-        <ul>
-          <p>
-            <center>
-            <strong><a href="index.html">Home</a></strong></style>&nbsp;&nbsp;&nbsp;
-            <a href="about_me.html">About me</a>&nbsp;&nbsp;&nbsp;
-            <a href="resume.html">Resume</a>&nbsp;&nbsp;&nbsp;
-            <a href="mailto: najelalarcon@gmail.com">Contact</a>&nbsp;&nbsp;&nbsp;
-            <a href="work.html">Work</a>&nbsp;&nbsp;&nbsp;
-            </center>
-          </p>
-        </ul>
-      </nav>
-    </h1>
+  <div class="bg">
+    <div id="MainWrapper">
+    <br><br><br><br><br><br><br><br><br><br>
+    <center style="font-size:124px"><p style="color:white">&nbsp;&nbsp;&nbsp;&nbsp;Najel Alarcon</p></center>
+    <h2 style="font-size:24px">Aspiring Software Engineer | Photo and Video Enthusiast</h2>
+  </div>
   </div>
 
-    <hr>
-    <p>
-        <br><br><br><br><br>
-        <i><b>***Website is underdevelopment***</b></i><br>
-        <b><i>*Mobile users experience may differ*</i></b><br>
-        <b><i>Last updated on: <u>9/21/20</u></i></b>
-    </p>
-    <!-- Displays base image by itself
-    <img src="https://lh3.googleusercontent.com/QLQlzEBRmKjgO05wXdK_vz7I3P7H9IVzVSo7H4uyMRKHBhwUzlTydUsKVkXSCy009ILrN8AMqNv_SP6d_ghYkBb5C8GlvxYzDqA7tqNVRxJNaDMLhUiXgUqWak_DNTpTxDFM8v4Z=w2400" alt="Photo of me" style="width:200px;height:310px"> -->
-    <div>
-    <!-- Displaying image and text next to it-->
-    <p style="float: left;"><img src="https://lh3.googleusercontent.com/QLQlzEBRmKjgO05wXdK_vz7I3P7H9IVzVSo7H4uyMRKHBhwUzlTydUsKVkXSCy009ILrN8AMqNv_SP6d_ghYkBb5C8GlvxYzDqA7tqNVRxJNaDMLhUiXgUqWak_DNTpTxDFM8v4Z=w2400" height="580px" width="380px" border="2px"></p>
-    <br>
-    <hr>
-    <p style="font-size:36px"><b>About me:</b></p>
 
-    <!--<p>I'm currently attending the University of California, Santa Cruz and am seeking for an intership in the computer engineering field.</p>
-    <p>I enjoy going to music festivals, traveling, snowboarding, and many more different activties. In the midst of the pandemic I have</p>
-    <p>been learning new skills: filming and editing, trading stocks, and learning different coding languages. I plan on working on this</p>
-    <p>website for the next few months, so feel free to check out my GitHub projects at the link below.</p> -->
-
-    <p style="font-size:24px">I currently attend the University of California, Santa Cruz and am seeking an internship in the computer science/engineering field.
-    I enjoy going to music festivals year round, snowboarding in the winter season, and excercising to maintain my health. During my free time, I play video games or read Japanese
-    manga. In the midst of this pandemic, I have utilized this time to learn new skills: <i>filming and editing, trading stocks, and learning different coding languages</i>.
-    I plan on working on this website for the next few months and updating it from time to time, so feel free to check out my GitHub at the link below.</p>
-    <hr>
-
-    <p style="font-size:16px"><i>If you have any questions contact me!</i></p>
-    <h1 style="font-size:36px"> <b>Socials</b></h1>
-
-    <p>
-    <big><a href="https://www.linkedin.com/in/najel-alarcon-19b189198/" class="fa fa-linkedin" style="color:white"></a></big>
-
-    <!--<big><a href="https://github.com/Najel-A">Najel's GitHub</a></big>-->
-
-    <big><a href="https://www.facebook.com/najel.alarcon/" class="fa fa-facebook" style="color:white"></a></big>
-
-    <big><a href="https://www.instagram.com/najel_alarcon/" class="fa fa-instagram" style="color:white"></a></big>
-    <a href="https://github.com/Najel-A" class="fa fa-github" style="color:white"></a>
-    </p>
-
-    <!-- Decide whether to put contact email next to or above picture -->
-    <!--<p><a href = "mailto: najelalarcon@gmail.com">Contact: najelalarcon@gmail.com</a></p>-->
+      <div class="topnav">
+      <h1>
+        <nav>
+          <ul>
+            <p>
+              <center>
+              <strong><a href="index.html">Home</a></strong></style>&nbsp;&nbsp;&nbsp;
+              <a href="about_me.html">About me</a>&nbsp;&nbsp;&nbsp;
+              <a href="resume.html">Resume</a>&nbsp;&nbsp;&nbsp;
+              <a href="mailto: najelalarcon@gmail.com">Contact</a>&nbsp;&nbsp;&nbsp;
+              <a href="work.html">Work</a>&nbsp;&nbsp;&nbsp;
+              </center>
+            </p>
+          </ul>
+        </nav>
+      </h1>
     </div>
-
 
   </body>
 </html>
